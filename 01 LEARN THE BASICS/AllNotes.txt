@@ -1,0 +1,31 @@
+T_01 INPUT OUTPUT:
+
+1)  you have to import scanner class from utils library of jdk.
+2) scanner class has various methods includng:
+
+nextLine(): Reads a string (including spaces until a newline is encountered).
+next(): Reads a single word (ends at whitespace).
+nextInt(): Reads an integer.
+nextDouble(): Reads a floating-point number (decimal).
+nextBoolean(): Reads a boolean (true or false).
+
+3) syntax story of taking input from user:
+
+Scanner variable = new Scanner(system.in)
+sout("enter ur name: ");
+String name = variable.nextLine();
+
+sout("enter ur age: ");
+int age = variable.nextInt();
+
+sout("ur name is: " + name + "ur age is: " + age);
+variable.close();
+
+
+4) THODI SI THEORY HOJAYE:
+
+Java offers two input methods, Scanner and BufferedReader
+
+a) Scanner simplifies console input for common use cases, providing easy-to-use methods for various data types. 
+b) BufferedReader, on the other hand, offers greater control and efficiency, making it suitable for complex input scenarios and handling large volumes of data, such as reading from files or network streams. 
+
