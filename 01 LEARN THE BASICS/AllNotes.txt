@@ -29,3 +29,11 @@ Java offers two input methods, Scanner and BufferedReader
 a) Scanner simplifies console input for common use cases, providing easy-to-use methods for various data types. 
 b) BufferedReader, on the other hand, offers greater control and efficiency, making it suitable for complex input scenarios and handling large volumes of data, such as reading from files or network streams. 
 
+T02_DATATYPES:
+
+1) size of datatypes:
+a) character: 2
+b) integer: 4
+c) Long: 8
+d) Float: 4
+e) Double: 8
